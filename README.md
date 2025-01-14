@@ -30,24 +30,24 @@ This project processes and analyzes vehicle data, including extracting geographi
 
 # Overview of Code Execution
 
-# 1. Data Loading and CSV to JSON Conversion
+1. Data Loading and CSV to JSON Conversion
 The first step is to load the CSV file (vehicle-fuel-type-count-by-zip-code-20231.csv) and convert it into a JSON file (output_data.json). This JSON file contains the same vehicle data, but in JSON format.
 
-# 2. Extracting ZIP Code and Fetching Latitude and Longitude
+2. Extracting ZIP Code and Fetching Latitude and Longitude
 Using the requests library, the script makes API calls to https://geocode.xyz/{zip_code}?json=1 to retrieve the latitude and longitude for each unique ZIP code found in the data.
 
-# 3. Adding Latitude and Longitude to the CSV Data
+3. Adding Latitude and Longitude to the CSV Data
 The latitude and longitude information is then merged with the original CSV data
 
-# 4. Data Cleaning
+4. Data Cleaning
 The data is cleaned by dropping rows with missing or invalid values (such as 'Unk', 'OTHER/UNK', 'UNKNOWN', and '0'). The model_year column is also cleaned to replace entries starting with <2010 with the value 2009.
 
-# 5. Saving Cleaned Data to CSV
+5. Saving Cleaned Data to CSV
 The cleaned data is saved into a new CSV file (vehicle_cleaned_output.csv).
 
-# 6. Inserting Data into PostgreSQL
+6. Inserting Data into PostgreSQL
 The script then imports the cleaned data into a PostgreSQL database using SQLAlchemy and psycopg2. A Vehicle table is created with the relevant columns, and the cleaned data is inserted into this table.
 
-# 7. Reading Data from the Database and saving it into csv file
+7. Reading Data from the Database and saving it into csv file
 The script retrieves data from the database and loads it into a DataFrame. The data in the DataFrame is then exported to a CSV file named vehicle_cleaned.csv
 
