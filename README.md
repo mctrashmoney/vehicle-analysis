@@ -88,30 +88,30 @@ Custom JavaScript (app.js)
 
 
 vehicle-analysis/
-│
-├── vehicle-fuel-type-count-by-zip-code-20231.csv
 
-├── output_data.json
-
-├── vehicle_cleaned_output.csv
-
-├── vehicle_cleaned.csv
-
-├── project3_VehicleAnalysis.ipynb
-
-├── README.md
-│
-└── visualizations/
-
-    └── Analysis of Vehicle Count By Make for California State/
+    vehicle-fuel-type-count-by-zip-code-20231.csv
     
-        ├── index.html
-        
-        ├── style.css
-        
-        ├── script.js
-        
-        └── vehicle_data.csv
+    output_data.json
+    
+    vehicle_cleaned_output.csv
+    
+    vehicle_cleaned.csv
+    
+    project3_VehicleAnalysis.ipynb
+    
+    README.md
+
+    visualizations/
+
+    Analysis of Vehicle Count By Make for California State/
+    
+       index.html 
+       
+       style.css     
+       
+       script.js   
+       
+       vehicle_data.csv
 
 # Overview of Analysis of Vehicle Count By Make:
 
