@@ -61,12 +61,19 @@ The Vehicle table in the PostgreSQL database is structured to store vehicle data
 # Libraries:
 
 Leaflet
+
 Leaflet MarkerCluster
+
 D3.js
+
 Highcharts
+
 Plotly.js
+
 Papaparse
+
 Custom CSS (style_rev.css)
+
 Custom JavaScript (app.js)
 
 # Files and Folder Structure:
@@ -83,26 +90,41 @@ Custom JavaScript (app.js)
 vehicle-analysis/
 │
 ├── vehicle-fuel-type-count-by-zip-code-20231.csv
+
 ├── output_data.json
+
 ├── vehicle_cleaned_output.csv
+
 ├── vehicle_cleaned.csv
+
 ├── project3_VehicleAnalysis.ipynb
+
 ├── README.md
 │
 └── visualizations/
+
     └── Analysis of Vehicle Count By Make for California State/
+    
         ├── index.html
+        
         ├── style.css
+        
         ├── script.js
+        
         └── vehicle_data.csv
 
 # Overview of Analysis of Vehicle Count By Make:
 
 The project provides several interactive visualizations that represent vehicle data based on make and vehicle count. The different visualizations are listed below:
+
 1. Map Visualization using Marker Cluster
+   
 2. Treemap
+
 3. Bar Chart
+
 4. Donut Chart
+
 5. 3D Donut Chart
 
 # Accessing the Visualizations:
