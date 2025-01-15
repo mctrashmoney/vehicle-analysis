@@ -51,3 +51,62 @@ The script then imports the cleaned data into a PostgreSQL database using SQLAlc
 7. Reading Data from the Database and saving it into csv file
 The script retrieves data from the database and loads it into a DataFrame. The data in the DataFrame is then exported to a CSV file named vehicle_cleaned.csv
 
+8. Database Table Structure
+The Vehicle table in the PostgreSQL database is structured to store vehicle data, including columns such as ZIP code, fuel type, model year, and geographic coordinates (latitude and longitude).
+
+# Requirements Part-2 - Visualization Overview
+
+# Data Visualization - Analysis of Vehicle Count By Make for California State :
+
+# Libraries:
+
+Leaflet
+Leaflet MarkerCluster
+D3.js
+Highcharts
+Plotly.js
+Papaparse
+Custom CSS (style_rev.css)
+Custom JavaScript (app.js)
+
+# Files and Folder Structure:
+
+•	index.html: HTML file for vehicle count analysis visualization.
+
+•	style.css: CSS file for styling the visualization page.
+
+•	app.js: JS file for handling map, charts, and data logic.
+
+•	vehicle_cleaned.csv: CSV file containing vehicle data for this visualization.
+
+
+vehicle-analysis/
+│
+├── vehicle-fuel-type-count-by-zip-code-20231.csv
+├── output_data.json
+├── vehicle_cleaned_output.csv
+├── vehicle_cleaned.csv
+├── project3_VehicleAnalysis.ipynb
+├── README.md
+│
+└── visualizations/
+    └── Analysis of Vehicle Count By Make for California State/
+        ├── index.html
+        ├── style.css
+        ├── script.js
+        └── vehicle_data.csv
+
+# Overview of Analysis of Vehicle Count By Make:
+
+The project provides several interactive visualizations that represent vehicle data based on make and vehicle count. The different visualizations are listed below:
+1. Map Visualization using Marker Cluster
+2. Treemap
+3. Bar Chart
+4. Donut Chart
+5. 3D Donut Chart
+
+# Accessing the Visualizations:
+
+To view the visualizations, open the HTML file in a web browser. Once the data is loaded in the webpage, the users can access these visualizations. Users can interact with the controls, filter and have access to data.
+
+
