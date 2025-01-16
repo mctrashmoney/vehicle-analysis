@@ -81,7 +81,7 @@ The script retrieves data from the database and loads it into a DataFrame. The d
 8. Database Table Structure
 The Vehicle table in the PostgreSQL database is structured to store vehicle data, including columns such as ZIP code, fuel type, model year, and geographic coordinates (latitude and longitude).
 
-## Data Visualization Overview
+## Data Visualization
 
 ### Analysis of Vehicle Count By Make for California State :
 
