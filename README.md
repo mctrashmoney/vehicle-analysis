@@ -88,12 +88,19 @@ The Vehicle table in the PostgreSQL database is structured to store vehicle data
 ### Libraries:
 
 Leaflet
+
 Leaflet MarkerCluster
+
 D3.js
+
 Highcharts
+
 Plotly.js
+
 Papaparse
+
 Custom CSS (style_rev.css)
+
 Custom JavaScript (app.js)
 
 ### Files and Folder Structure:
