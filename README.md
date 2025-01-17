@@ -127,8 +127,8 @@ vehicle-analysis/
     └── Analysis of Vehicle Count By Make for California State/
         ├── index.html
         ├── style.css
-        ├── script.js
-        └── vehicle_data.csv
+        ├── app.js
+        └── vehicle_cleaned.csv
 
 ### Installation and Setup:
 
