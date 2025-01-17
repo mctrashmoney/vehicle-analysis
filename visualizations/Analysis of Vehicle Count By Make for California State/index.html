@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Map with Leaflet</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+    <!-- Leaflet MarkerCluster CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+
+    <!-- D3 library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <!-- Leaflet MarkerCluster JavaScript -->
+    <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+
+    <!-- Highcharts.js Library -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/3d.js"></script> <!-- 3D Module -->
+
+    <!-- Plotly.js Library -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <!-- Our custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Navigation links at the top -->
+    <div class="navigation-bar" style="background-color: #d7f3aa; padding: 10px;">
+        <a href="#markerclustermap" style="margin-right: 20px; text-decoration: none; color: #333;">Marker Cluster Map</a>
+        <a href="#treemap-container1" style="margin-right: 20px; text-decoration: none; color: #333;">Treemap</a>
+        <a href="#bar-chart-container1" style="margin-right: 20px; text-decoration: none; color: #333;">Bar Chart</a>
+        <a href="#donut-chart-container1" style="margin-right: 20px; text-decoration: none; color: #333;">Donut Chart</a>
+        <a href="#3d-donut-chart-container1" style="text-decoration: none; color: #333;">3D Donut Chart</a>
+    </div>
+
+    <div id="markerclustermap" class="header-filter-container">
+        <div class="center-heading">Analysis of Vehicle Distribution by Make with Cluster Markers Across California</div>
+        <div class="filter-container">
+            <label for="vehicle-make">Select Vehicle Make:</label>
+            <select id="vehicle-make">
+                <option value="all">All</option>
+            </select>
+            <div id="vehicle-count"></div> <!-- New div to display vehicle count -->
+        </div>
+    </div>
+    
+    <div id="map" style="width: 100%; height: 600px;"></div> <!-- Ensure your map has dimensions -->
+    
+    <!-- Treemap container -->
+    <h3 id="treemap-container1">Vehicle Counts by Make (Treemap)</h3>
+    <div id="treemap-container" style="width: 100%; height: 600px; margin-top: 30px;"></div>
+
+    <!-- Bar Chart container -->
+    <h3 id="bar-chart-container1">Top 20 / Bottom 20 Vehicle Makes: Vehicle Count Breakdown (Bar Chart)</h3>
+    <div id="bar-chart-container" style="width:100%; height: 500px;"></div>
+    <select id="selDataset">
+        <option value="dataset1">Top 20 Makes</option>
+        <option value="dataset2">Bottom 20 Makes</option>
+    </select>
+
+    <!-- Donut Chart container -->
+    <h3 id="donut-chart-container1">Top 20 Vehicle Counts by Make (Donut Chart)</h3>
+    <div id="donut-chart-container" style="width:100%; height: 600px;"></div>
+
+    <!-- 3d Pie Chart container -->
+    <h3 id="3d-donut-chart-container1">Top 20 Vehicle Counts by Make (3D Donut Chart)</h3>
+    <div id="3d-donut-chart-container" style="width:100%; height: 600px;"></div>
+    
+    <!-- CSV parsing library -->
+    <script src="https://unpkg.com/papaparse/papaparse.min.js"></script>
+
+    <!-- Highcharts Bar Chart and Dataset Script -->
+    <script src="app.js"></script>
+</body>
+</html>
