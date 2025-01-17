@@ -97,9 +97,7 @@ Highcharts
 
 Plotly.js
 
-Papaparse
-
-Custom CSS (style_rev.css)
+Custom CSS (style.css)
 
 Custom JavaScript (app.js)
 
