@@ -112,7 +112,8 @@ Custom JavaScript (app.js)
 •	vehicle_cleaned.csv: CSV file containing vehicle data for this visualization.
 
 
-```vehicle-analysis/
+```
+vehicle-analysis/
 │
 ├── vehicle-fuel-type-count-by-zip-code-20231.csv
 ├── output_data.json
