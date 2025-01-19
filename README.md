@@ -126,7 +126,8 @@ Custom JavaScript (app.js)
         ├── index.html
         ├── style.css
         ├── app.js
-        └── vehicle_cleaned.csv```
+        └── vehicle_cleaned.csv
+```
 
 ### Installation and Setup:
 
