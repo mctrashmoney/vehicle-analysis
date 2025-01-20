@@ -80,3 +80,13 @@ body, html {
 .leaflet-control-layers label {
   font-weight: bold;
 }
+#plotly-container {
+  position: absolute;
+  bottom: 40px; /* Positioning relative to the map */
+  left: 40px;
+  z-index: 1001; /* Higher than the Leaflet map's z-index */
+  background: rgb(133, 116, 24); /* Add background for better visibility */
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Optional styling */
+}
