@@ -1,0 +1,69 @@
+/* Reset body margin and padding */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Map container styling */
+#map {
+  height: 80vh;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Styling for car image markers */
+.car-image {
+  width: 50px;
+  height: 50px;
+  animation: bounce 1s infinite;
+}
+
+/* Bounce animation for car markers */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40% {
+      transform: translateY(-15px);
+  }
+  60% {
+      transform: translateY(-7px);
+  }
+}
+
+/* Custom Control Styling */
+.car-make-count-control {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* Styling for the legend */
+.info.legend {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  font-size: 12px;
+  line-height: 18px;
+  color: #555;
+}
+
+.info.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+
+
+
+
+
+
+

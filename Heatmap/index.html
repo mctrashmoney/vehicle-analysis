@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Make Distribution by Zip Code</title>
+
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="./static/css/style.css">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+    <!-- Leaflet MiniMap CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-minimap/dist/Control.MiniMap.min.css" />
+
+    <!-- Leaflet Search CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-search/dist/leaflet-search.min.css" />
+</head>
+
+<body>
+    <h1>Vehicle Make Distribution by Zip Code</h1>
+    <div id="map" style="height: 100vh;"></div>
+
+    <!-- Legend for Heatmap -->
+    <div id="legend" class="info legend">
+        <h3>Heatmap Legend</h3>
+        <div><span style="background: red;"></span> High Vehicle Count</div>
+        <div><span style="background: yellow;"></span> Medium Vehicle Count</div>
+        <div><span style="background: green;"></span> Low Vehicle Count</div>
+        <div><span style="background: blue;"></span> Very Low Vehicle Count</div>
+    </div>
+
+    <!-- D3.js Library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- Simpleheat Library -->
+    <script src="https://unpkg.com/simpleheat/simpleheat.js"></script>
+
+    <!-- Leaflet Heatmap Plugin -->
+    <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+
+    <!-- Leaflet MiniMap JavaScript -->
+    <script src="https://unpkg.com/leaflet-minimap/dist/Control.MiniMap.min.js"></script>
+
+    <!-- Leaflet Search JavaScript -->
+    <script src="https://unpkg.com/leaflet-search/dist/leaflet-search.min.js"></script>
+
+    <!-- Link to JavaScript file -->
+    <script src="./static/js/heatmap.js"></script>
+</body>
+
+</html>
+
