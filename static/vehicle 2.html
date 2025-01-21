@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vehicle Analysis</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <style>
+    body {
+    background-image:url(https://miro.medium.com/v2/resize:fit:1100/format:webp/0*Lco1RHYAOoQI7df4.png);
+  }
+ </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Vehicle Fuel Type count by Model Year</h1>
+    <p>Use the dropdown menu to select a model year and view the data.</p>
+    <select id="selDataset">
+      <option value="2009">2009</option>
+      <option value="2016">2016</option>
+      <option value="2020">2020</option>
+      <option value="2024">2024</option>
+    </select>
+    <div id="bar" style="margin-top: 20px;"></div>
+
+    <div id="pie" style="margin-top: 20px;"></div>
+  </div>
+
+  <script src="logic.js"></script>
+</body>
+
+</html>
