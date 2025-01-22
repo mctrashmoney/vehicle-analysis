@@ -179,6 +179,97 @@ Uses circleMarkers and the leaflet heatmap to highlight the bigger ZIP Codes (bi
 This is shown via two maps: Street and Satellite
 
 Map visualization can be viewed [here](https://mctrashmoney.github.io/vehicle-analysis/vehicle_count_zip/)
+-----------------------------------------------------------------------------------------------------------
+# **Make Distribution by Zip Code for California State**
+
+## **📚 Libraries & Technologies Used**
+- **Leaflet** - For interactive maps and geospatial visualizations.
+- **Leaflet MarkerCluster** - To cluster vehicle locations and improve map readability.
+- **Leaflet Heatmap Plugin** - For visualizing vehicle density using a heatmap.
+- **D3.js** - For data loading, filtering, and handling CSV files.
+- **Plotly.js** - For interactive charts (Pie Chart, Bubble Chart, and Stacked Bar Chart).
+- **Custom CSS (style.css)** - Styling for visualization pages.
+- **Custom JavaScript (logic.js, heatmap.js, leaflet-heat.js)** - Handles different visualization techniques.
+
+---
+
+## **📂 Files and Folder Structure**
+
+### **📁 Choropleth Folder**
+- **index.html:** HTML file for vehicle count analysis visualization.
+- **style.css:** CSS file for styling the visualization page.
+- **logic.js:** JavaScript file for processing and loading data.
+- **vehicle_cleaned.csv:** CSV file containing vehicle data for this visualization.
+- **ca_california_zip_codes_geo.min.json:** GeoJSON file containing ZIP code boundaries.
+
+### **📁 Heatmap Folder**
+- **index.html:** HTML file for vehicle count analysis visualization.
+- **style.css:** CSS file for styling the visualization page.
+- **heatmap.js:** JavaScript file for heatmap visualization.
+- **vehicle_cleaned.csv:** CSV file containing vehicle data for this visualization.
+- **ca_california_zip_codes_geo.min.json:** GeoJSON file containing ZIP code boundaries.
+- **leaflet-heat.js:** JavaScript file for Leaflet heatmap implementation.
+
+### **📁 Marker Cluster Map Folder**
+- **index.html:** HTML file for vehicle count analysis visualization.
+- **style.css:** CSS file for styling the visualization page.
+- **logic.js:** JavaScript file for processing and loading data.
+- **vehicle_cleaned.csv:** CSV file containing vehicle data for this visualization.
+- **ca_california_zip_codes_geo.min.json:** GeoJSON file containing ZIP code boundaries.
+
+---
+
+## **🛠 Installation and Setup**
+1. **Ensure all required files** (index.html, style.css, and JavaScript files) are in the same directory.
+2. **Open index.html** in a web browser to visualize the interactive maps and charts.
+
+---
+
+## **📊 Overview of Make Distribution by Zip Code for California State**
+This project provides several interactive visualizations representing vehicle distribution by make and count across California ZIP codes.
+
+### **📌 Interactive Visualizations**
+- **Marker Cluster Map**  
+  - Displays vehicle locations using cluster markers.
+  - Allows zooming in to reveal individual vehicle counts.
+
+- **Pie Chart**  
+  - Shows the top 10 vehicle makes in a selected ZIP code.
+  - Highlights dominant brands such as Toyota, Honda, and Ford.
+
+- **Stacked Bar Chart**  
+  - Compares vehicle distribution across multiple ZIP codes.
+  - Visualizes brand concentration in different locations.
+
+- **Bubble Chart**  
+  - Represents vehicle distribution with bubble sizes based on vehicle counts.
+  - Provides a comparative view of make distribution.
+
+- **Heatmap**  
+  - Highlights high-density vehicle areas using color gradients.
+  - Identifies urban centers with high vehicle clustering.
+
+- **Choropleth Map**  
+  - Uses color-coded regions to show vehicle density.
+  - Provides insights into ZIP code divisions and dominant car brands.
+
+---
+
+## **📂 Accessing the Visualizations**
+1. Open the **HTML file** in a browser.
+2. Once the data loads, interact with controls to explore the maps and charts.
+3. Users can filter by vehicle make or ZIP code for detailed analysis.
+
+---
+
+## **📌 Key Takeaways**
+- Some vehicle makes dominate certain ZIP codes.
+- **Luxury brands** are concentrated in wealthier regions.
+- **Toyota, Honda, and Ford** remain the most widespread.
+- Interactive visualizations help businesses and policymakers analyze vehicle distribution.
+
+This project provides a **detailed geographic analysis** of vehicle distribution, offering valuable insights for businesses, policymakers, and transportation planners.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Ethical Considerations
 
