@@ -150,6 +150,10 @@ The project provides several interactive visualizations that represent vehicle d
 
 To view the visualizations, open the HTML file in a web browser. Once the data is loaded in the webpage, the users can access these visualizations. Users can interact with the controls, filter and have access to data.
 
+### GitHub Pages for hosting the Visualizations:
+
+https://mctrashmoney.github.io/vehicle-analysis/visualizations/Analysis%20of%20Vehicle%20Count%20By%20Make%20for%20California%20State/
+
 ## Ethical Considerations
 
 This project adheres to ethical principles of data privacy and responsible use of public datasets. 
