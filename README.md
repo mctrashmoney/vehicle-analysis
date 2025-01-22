@@ -164,7 +164,7 @@ To view the visualizations, open the HTML file in a web browser. Once the data i
 
 ### GitHub Pages for hosting the Visualizations:
 
-https://mctrashmoney.github.io/vehicle-analysis/visualizations/Analysis%20of%20Vehicle%20Count%20By%20Make%20for%20California%20State/
+Map visualization can be viewed [here](https://mctrashmoney.github.io/vehicle-analysis/visualizations/Analysis%20of%20Vehicle%20Count%20By%20Make%20for%20California%20State/)
 
 ### Visualizing Vehicle Count by ZIP Code
 
