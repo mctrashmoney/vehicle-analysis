@@ -121,7 +121,19 @@ vehicle-analysis/
 ├── vehicle_cleaned.csv
 ├── project3_VehicleAnalysis.ipynb
 ├── README.md
-│
+├── vehicle_count_zip/
+│   ├── static/
+│   │   ├── css/
+│   │   │   └── style.css
+│   │   ├── data/
+│   │   │   ├── aggregated_vehicle_data.csv
+│   │   │   ├── bottom_20_zip_codes.csv
+│   │   │   └── top_20_zip_codes.csv
+│   │   └── js/
+│   │       ├── leaflet_logic.js
+│   │       └── plotly_logic.js
+│   ├── data_cleansing.ipynb
+│   └── index.html
 └── visualizations/
     └── Analysis of Vehicle Count By Make for California State/
         ├── index.html
@@ -153,6 +165,20 @@ To view the visualizations, open the HTML file in a web browser. Once the data i
 ### GitHub Pages for hosting the Visualizations:
 
 https://mctrashmoney.github.io/vehicle-analysis/visualizations/Analysis%20of%20Vehicle%20Count%20By%20Make%20for%20California%20State/
+
+### Visualizing Vehicle Count by ZIP Code
+
+Libraries used
+* Leaflet
+* Leaflet.Heat
+* D3
+* Plotly
+* Custom CSS
+
+Uses circleMarkers and the leaflet heatmap to highlight the bigger ZIP Codes (bigger circles meaning more vehicles)
+This is shown via two maps: Street and Satellite
+
+Map visualization can be viewed [here](https://mctrashmoney.github.io/vehicle-analysis/vehicle_count_zip/)
 
 ## Ethical Considerations
 
