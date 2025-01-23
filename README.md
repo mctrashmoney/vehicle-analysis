@@ -254,6 +254,14 @@ This project provides several interactive visualizations representing vehicle di
   - Provides insights into ZIP code divisions and dominant car brands.
 
 ---
+## GitHub Pages for hosting the Visualizations:
+
+Choropleth can be viewed [here](https://mctrashmoney.github.io/vehicle-analysis/visualizations/Analysis_of_Zipcode_Make/Chropleth/)
+
+Heatmap can be viewed [here](https://mctrashmoney.github.io/vehicle-analysis/visualizations/Analysis_of_Zipcode_Make/Heatmap/)
+
+Marker CLuster can be viewed [here](https://mctrashmoney.github.io/vehicle-analysis/visualizations/Analysis_of_Zipcode_Make/Marker%20_Cluster%20_Map/)
+
 
 ## **📂 Accessing the Visualizations**
 1. Open the **HTML file** in a browser.
