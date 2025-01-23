@@ -256,7 +256,7 @@ This project provides several interactive visualizations representing vehicle di
 ---
 ## GitHub Pages for hosting the Visualizations:
 
-<font color="blue">Choropleth can be viewed [here](https://mctrashmoney.github.io/vehicle-analysis/visualizations/Analysis_of_Zipcode_Make/Chropleth/)</font>
+Choropleth can be viewed [here](https://mctrashmoney.github.io/vehicle-analysis/visualizations/Analysis_of_Zipcode_Make/Chropleth/)
 
 Heatmap can be viewed [here](https://mctrashmoney.github.io/vehicle-analysis/visualizations/Analysis_of_Zipcode_Make/Heatmap/)
 
